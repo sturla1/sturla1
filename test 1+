@@ -1,0 +1,43 @@
+export default function PoliceApp() {
+  return (
+    <div className="min-h-screen bg-gray-100 p-6">
+      <h1 className="text-3xl font-bold text-center mb-6">🚓 Roblox Politi System</h1>
+
+      {/* Rangsystem */}
+      <section className="bg-white rounded-2xl shadow p-4 mb-6">
+        <h2 className="text-xl font-semibold mb-2">👮 Rangsystem</h2>
+        <ul className="space-y-2">
+          <li><b>Cadet:</b> Under opplæring, må patruljere med instruktør.</li>
+          <li><b>Officer:</b> Fullført trening, patruljerer med partner.</li>
+          <li><b>Senior Officer:</b> Erfaren, kan trene cadets.</li>
+          <li><b>Sergeant:</b> Leder små grupper (2–4 personer).</li>
+          <li><b>Lieutenant:</b> Taktisk leder, planlegger store operasjoner.</li>
+          <li><b>Chief of Police:</b> Øverste leder, ansvar for regler og trening.</li>
+        </ul>
+      </section>
+
+      {/* Trening */}
+      <section className="bg-white rounded-2xl shadow p-4 mb-6">
+        <h2 className="text-xl font-semibold mb-2">📘 Trening</h2>
+        <p>Cadets må gjennomføre grunntrening før de kan bli Officer:</p>
+        <ol className="list-decimal list-inside mt-2 space-y-1">
+          <li>Serverregler og uniform.</li>
+          <li>Bruk av håndjern, radio og taser.</li>
+          <li>Trafikkontroll og arrestasjon.</li>
+          <li>Patruljetest med instruktør.</li>
+        </ol>
+      </section>
+
+      {/* Regler */}
+      <section className="bg-white rounded-2xl shadow p-4 mb-6">
+        <h2 className="text-xl font-semibold mb-2">📜 Regler</h2>
+        <ul className="list-disc list-inside space-y-1">
+          <li>Følg alltid RP-regler.</li>
+          <li>Respekter høyere rang.</li>
+          <li>Ikke misbruk verktøy eller våpen.</li>
+          <li>Bruk radio/Discord profesjonelt.</li>
+        </ul>
+      </section>
+    </div>
+  );
+}
